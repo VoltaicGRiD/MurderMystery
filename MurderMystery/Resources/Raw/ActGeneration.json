@@ -1,0 +1,57 @@
+{
+  "Acts": {
+    "Hooks": [ "A loud arguing is heard coming from the mansion", "A stranger is seen lurking around the grounds", "A strange package is found on the porch", "A gun is discovered in the study", "A broken window is found in the conservatory", "Bloodstains are found on the kitchen floor", "A bloody knife is found in the garden", "A secret passage is discovered in the library", "A diary is found tucked away in the bedroom", "A scrap of cloth with a monogram is found in the study", "An incriminating letter is discovered in the attic", "Suspicious footprints are seen in the hallway", "A mysterious note is found on the nightstand", "A strange key is found in a drawer", "A message is found written in lipstick on a mirror", "An unknown person is seen entering the mansion late at night", "A torn piece of clothing is discovered in the bushes", "A blood-soaked carpet is found in the living room", "A missing person report is filed", "A witness claims to have seen a suspicious vehicle leaving the scene", "An alibi is not provided by a suspect", "Suspicious activities are observed near the crime scene", "An unexpected visitor is seen at the house", "A forged document is found in the office", "A stranger is seen leaving the house in a hurry", "An anonymous tip is received", "A mysterious phone call is received", "A suspect is seen in a compromising position", "An unknown person is seen entering the mansion late at night", "A message is left on the front door", "A strange package is discovered on the doorstep", "A stranger is seen lurking around the grounds", "A loud argument is heard coming from the mansion", "A broken window is found in the conservatory", "Bloodstains are found on the kitchen floor", "A gun is discovered in the study", "A bloody knife is found in the garden", "A secret passage is discovered in the library", "A diary is found tucked away in the bedroom", "A scrap of cloth with a monogram is found in the study", "An incriminating letter is discovered in the attic", "Suspicious footprints are seen in the hallway", "A mysterious note is found on the nightstand" ]
+    "Three-Acts": {
+      "Act1": {
+        "Targets": 1,
+        "Clues": 3,
+        "Cards": 3,
+        "Solutions": 0
+      },
+      "Act2": {
+        "Targets": 1,
+        "Clues": 2,
+        "Cards": 5,
+        "Solutions": 1
+      },
+      "Act3": {
+        "Targets": 1,
+        "Clues": 1,
+        "Cards": 5,
+        "Solutions": 1
+      }
+    },
+    "Five-Acts": {
+      "Act1": {
+        "Targets": 0,
+        "Clues": 2,
+        "Cards": 3,
+        "Solutions": 0
+      },
+      "Act2": {
+        "Targets": 1,
+        "Clues": 2,
+        "Cards": 4,
+        "Solutions": 0
+      },
+      "Act3": {
+        "Targets": 1,
+        "Clues": 1,
+        "Cards": 5,
+        "Solutions": 1
+      },
+      "Act4": {
+        "Targets": 1,
+        "Clues": 1,
+        "Cards": 5,
+        "Solutions": 1
+      },
+      "Act5": {
+        "Targets": 1,
+        "Clues": 1,
+        "Cards": 8,
+        "Solutions": 1
+      }
+    }
+  }
+}

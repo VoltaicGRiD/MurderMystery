@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MurderMystery;assembly=MurderMystery"
+             x:Class="MurderMystery.NewGamePage"
+             Title="New Game">
+    <Grid>
+        <Image Source="background_blurred.png" Aspect="AspectFill"/>
+        <ScrollView>
+            <VerticalStackLayout x:Name="Grid" Spacing="25" Padding="30,0" VerticalOptions="Center"> 
+                <Label Text="So, you want to host a murder mystery party?" SemanticProperties.HeadingLevel="Level1" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center" />
+
+                <Label Text="Use the options below to configure your party." VerticalOptions="Center" TextColor="White" HorizontalOptions="Center" />
+
+                <StackLayout>
+                    <Slider Minimum="2" Maximum="10" Value="4" MinimumTrackColor="Gray" MaximumTrackColor="Gray" ThumbColor="White" ValueChanged="PlayerCountChanged"/>
+                    <Label x:Name="PlayerCount" Text="4 Players" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center" />
+                </StackLayout>
+
+                <StackLayout>
+                    <Switch IsToggled="false" />
+                    
+                    <Label Text="What time period?" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center" />
+                </StackLayout>
+                
+                <StackLayout>
+                    <Picker x:Name="TimePeriodPicker" ItemsSource="{Binding TimePeriods}" TextColor="White" SelectedIndexChanged="TimePeriodPicker_SelectedIndexChanged"/>
+                    <Label Text="What time period?" VerticalOptions="Center" TextColor="White" HorizontalOptions="Center" />
+                </StackLayout>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
